@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CrossBrowser]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="ChromeTest">
+    <classes>
+      <class name="com.qa.ac.test.OurPresence"/>
+      <class name="com.qa.ac.test.Sustainability"/>
+      <class name="com.qa.ac.test.SignUpForContactUs"/>
+      <class name="com.qa.ac.test.OurLeaders"/>
+      <class name="com.qa.ac.test.OurPortfolioCompanies"/>
+      <class name="com.qa.ac.test.VerifyHomepage"/>
+      <class name="com.qa.ac.test.OurBrandBabyCare"/>
+      <class name="com.qa.ac.test.Careers"/>
+      <class name="com.qa.ac.test.OurBusiness"/>
+      <class name="com.qa.ac.test.ProductBabyCare"/>
+      <class name="com.qa.ac.test.OurHistory"/>
+      <class name="com.qa.ac.test.ContactUs"/>
+      <class name="com.qa.ac.test.OurBrandOthers"/>
+      <class name="com.qa.ac.test.OurBrandDisplay"/>
+      <class name="com.qa.ac.test.PressRealse"/>
+      <class name="com.qa.ac.test.ProductOthers"/>
+      <class name="com.qa.ac.test.ProductList"/>
+      <class name="com.qa.ac.test.LatestNews"/>
+      <class name="com.qa.ac.test.ProductClinical"/>
+      <class name="com.qa.ac.test.OurBrandCategoryAll"/>
+      <class name="com.qa.ac.test.OurBrandClinical"/>
+      <class name="com.qa.ac.test.SignUpForNews"/>
+      <class name="com.qa.ac.test.ProductAdultIncontinence"/>
+      <class name="com.qa.ac.test.Newsroom"/>
+      <class name="com.qa.ac.test.OurBrandAdultIncontinence"/>
+      <class name="com.qa.ac.test.OpportunitiesCarrer"/>
+      <class name="com.qa.ac.test.SignUpForMediaContact"/>
+      <class name="com.qa.ac.test.MediaContact"/>
+      <class name="com.qa.ac.test.OurBrand"/>
+      <class name="com.qa.ac.test.newsSignUp"/>
+      <class name="com.qa.ac.test.MakingItPersonal"/>
+      <class name="com.qa.ac.test.OurProducts"/>
+    </classes>
+  </test> <!-- ChromeTest -->
+  <test name="FireFoxTest">
+    <classes>
+      <class name="com.qa.ac.test.OurPresence"/>
+      <class name="com.qa.ac.test.Sustainability"/>
+      <class name="com.qa.ac.test.SignUpForContactUs"/>
+      <class name="com.qa.ac.test.OurLeaders"/>
+      <class name="com.qa.ac.test.OurPortfolioCompanies"/>
+      <class name="com.qa.ac.test.VerifyHomepage"/>
+      <class name="com.qa.ac.test.OurBrandBabyCare"/>
+      <class name="com.qa.ac.test.Careers"/>
+      <class name="com.qa.ac.test.OurBusiness"/>
+      <class name="com.qa.ac.test.ProductBabyCare"/>
+      <class name="com.qa.ac.test.OurHistory"/>
+      <class name="com.qa.ac.test.ContactUs"/>
+      <class name="com.qa.ac.test.OurBrandOthers"/>
+      <class name="com.qa.ac.test.OurBrandDisplay"/>
+      <class name="com.qa.ac.test.PressRealse"/>
+      <class name="com.qa.ac.test.ProductOthers"/>
+      <class name="com.qa.ac.test.ProductList"/>
+      <class name="com.qa.ac.test.LatestNews"/>
+      <class name="com.qa.ac.test.ProductClinical"/>
+      <class name="com.qa.ac.test.OurBrandCategoryAll"/>
+      <class name="com.qa.ac.test.OurBrandClinical"/>
+      <class name="com.qa.ac.test.SignUpForNews"/>
+      <class name="com.qa.ac.test.ProductAdultIncontinence"/>
+      <class name="com.qa.ac.test.Newsroom"/>
+      <class name="com.qa.ac.test.OurBrandAdultIncontinence"/>
+      <class name="com.qa.ac.test.OpportunitiesCarrer"/>
+      <class name="com.qa.ac.test.SignUpForMediaContact"/>
+      <class name="com.qa.ac.test.MediaContact"/>
+      <class name="com.qa.ac.test.OurBrand"/>
+      <class name="com.qa.ac.test.newsSignUp"/>
+      <class name="com.qa.ac.test.MakingItPersonal"/>
+      <class name="com.qa.ac.test.OurProducts"/>
+    </classes>
+  </test> <!-- FireFoxTest -->
+  <test name="ChromeTest(failed)">
+    <classes>
+      <class name="com.qa.ac.test.SignUpForMediaContact">
+        <methods>
+          <include name="signUp"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.SignUpForMediaContact -->
+      <class name="com.qa.ac.test.SignUpForContactUs">
+        <methods>
+          <include name="signUp"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.SignUpForContactUs -->
+      <class name="com.qa.ac.test.Careers">
+        <methods>
+          <include name="careers"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.Careers -->
+      <class name="com.qa.ac.test.OurPresence">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurPresence -->
+      <class name="com.qa.ac.test.ProductBabyCare">
+        <methods>
+          <include name="Ourproducts"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.ProductBabyCare -->
+      <class name="com.qa.ac.test.OurBrandOthers">
+        <methods>
+          <include name="ourBrandBabyCare"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurBrandOthers -->
+      <class name="com.qa.ac.test.LatestNews">
+        <methods>
+          <include name="latestNews"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.LatestNews -->
+      <class name="com.qa.ac.test.OurBrandCategoryAll">
+        <methods>
+          <include name="ourBrandCategory"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurBrandCategoryAll -->
+      <class name="com.qa.ac.test.OurBrandBabyCare">
+        <methods>
+          <include name="ourBrandBabyCare"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurBrandBabyCare -->
+      <class name="com.qa.ac.test.MakingItPersonal">
+        <methods>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.MakingItPersonal -->
+      <class name="com.qa.ac.test.ProductOthers">
+        <methods>
+          <include name="Ourproducts"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.ProductOthers -->
+      <class name="com.qa.ac.test.OurBrandAdultIncontinence">
+        <methods>
+          <include name="ourBrandAdult"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurBrandAdultIncontinence -->
+      <class name="com.qa.ac.test.ProductAdultIncontinence">
+        <methods>
+          <include name="Ourproducts"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.ProductAdultIncontinence -->
+      <class name="com.qa.ac.test.VerifyHomepage">
+        <methods>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.VerifyHomepage -->
+      <class name="com.qa.ac.test.OurPortfolioCompanies">
+        <methods>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurPortfolioCompanies -->
+      <class name="com.qa.ac.test.ContactUs">
+        <methods>
+          <include name="contactUs"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.ContactUs -->
+      <class name="com.qa.ac.test.OurBrand">
+        <methods>
+          <include name="Ourbrand"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurBrand -->
+      <class name="com.qa.ac.test.newsSignUp">
+        <methods>
+          <include name="signUp"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.newsSignUp -->
+      <class name="com.qa.ac.test.OurLeaders">
+        <methods>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurLeaders -->
+      <class name="com.qa.ac.test.OurBrandClinical">
+        <methods>
+          <include name="ourBrandClinical"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurBrandClinical -->
+      <class name="com.qa.ac.test.SignUpForNews">
+        <methods>
+          <include name="signUp"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.SignUpForNews -->
+      <class name="com.qa.ac.test.OurBrandDisplay">
+        <methods>
+          <include name="ourBrandDisplay"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurBrandDisplay -->
+      <class name="com.qa.ac.test.PressRealse">
+        <methods>
+          <include name="pressRealse"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.PressRealse -->
+      <class name="com.qa.ac.test.MediaContact">
+        <methods>
+          <include name="mediaContact"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.MediaContact -->
+      <class name="com.qa.ac.test.Newsroom">
+        <methods>
+          <include name="NewsRoom"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.Newsroom -->
+      <class name="com.qa.ac.test.ProductClinical">
+        <methods>
+          <include name="Ourproducts"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.ProductClinical -->
+      <class name="com.qa.ac.test.OurProducts">
+        <methods>
+          <include name="Ourproducts"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurProducts -->
+      <class name="com.qa.ac.test.Sustainability">
+        <methods>
+          <include name="sustainability"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.Sustainability -->
+      <class name="com.qa.ac.test.OurHistory">
+        <methods>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurHistory -->
+      <class name="com.qa.ac.test.OpportunitiesCarrer">
+        <methods>
+          <include name="careers"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OpportunitiesCarrer -->
+      <class name="com.qa.ac.test.OurBusiness">
+        <methods>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurBusiness -->
+      <class name="com.qa.ac.test.ProductList">
+        <methods>
+          <include name="Ourproducts"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.ProductList -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test name="FireFoxTest(failed)">
+    <classes>
+      <class name="com.qa.ac.test.SignUpForMediaContact">
+        <methods>
+          <include name="signUp"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.SignUpForMediaContact -->
+      <class name="com.qa.ac.test.SignUpForContactUs">
+        <methods>
+          <include name="signUp"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.SignUpForContactUs -->
+      <class name="com.qa.ac.test.Careers">
+        <methods>
+          <include name="careers"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.Careers -->
+      <class name="com.qa.ac.test.OurPresence">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurPresence -->
+      <class name="com.qa.ac.test.ProductBabyCare">
+        <methods>
+          <include name="Ourproducts"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.ProductBabyCare -->
+      <class name="com.qa.ac.test.OurBrandOthers">
+        <methods>
+          <include name="ourBrandBabyCare"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurBrandOthers -->
+      <class name="com.qa.ac.test.LatestNews">
+        <methods>
+          <include name="latestNews"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.LatestNews -->
+      <class name="com.qa.ac.test.OurBrandCategoryAll">
+        <methods>
+          <include name="ourBrandCategory"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurBrandCategoryAll -->
+      <class name="com.qa.ac.test.OurBrandBabyCare">
+        <methods>
+          <include name="ourBrandBabyCare"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurBrandBabyCare -->
+      <class name="com.qa.ac.test.MakingItPersonal">
+        <methods>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.MakingItPersonal -->
+      <class name="com.qa.ac.test.ProductOthers">
+        <methods>
+          <include name="Ourproducts"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.ProductOthers -->
+      <class name="com.qa.ac.test.OurBrandAdultIncontinence">
+        <methods>
+          <include name="ourBrandAdult"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurBrandAdultIncontinence -->
+      <class name="com.qa.ac.test.ProductAdultIncontinence">
+        <methods>
+          <include name="Ourproducts"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.ProductAdultIncontinence -->
+      <class name="com.qa.ac.test.VerifyHomepage">
+        <methods>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.VerifyHomepage -->
+      <class name="com.qa.ac.test.OurPortfolioCompanies">
+        <methods>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurPortfolioCompanies -->
+      <class name="com.qa.ac.test.ContactUs">
+        <methods>
+          <include name="contactUs"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.ContactUs -->
+      <class name="com.qa.ac.test.OurBrand">
+        <methods>
+          <include name="Ourbrand"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurBrand -->
+      <class name="com.qa.ac.test.newsSignUp">
+        <methods>
+          <include name="signUp"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.newsSignUp -->
+      <class name="com.qa.ac.test.OurLeaders">
+        <methods>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurLeaders -->
+      <class name="com.qa.ac.test.OurBrandClinical">
+        <methods>
+          <include name="ourBrandClinical"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurBrandClinical -->
+      <class name="com.qa.ac.test.SignUpForNews">
+        <methods>
+          <include name="signUp"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.SignUpForNews -->
+      <class name="com.qa.ac.test.OurBrandDisplay">
+        <methods>
+          <include name="ourBrandDisplay"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurBrandDisplay -->
+      <class name="com.qa.ac.test.PressRealse">
+        <methods>
+          <include name="pressRealse"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.PressRealse -->
+      <class name="com.qa.ac.test.MediaContact">
+        <methods>
+          <include name="mediaContact"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.MediaContact -->
+      <class name="com.qa.ac.test.Newsroom">
+        <methods>
+          <include name="NewsRoom"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.Newsroom -->
+      <class name="com.qa.ac.test.ProductClinical">
+        <methods>
+          <include name="Ourproducts"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.ProductClinical -->
+      <class name="com.qa.ac.test.OurProducts">
+        <methods>
+          <include name="Ourproducts"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurProducts -->
+      <class name="com.qa.ac.test.Sustainability">
+        <methods>
+          <include name="sustainability"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.Sustainability -->
+      <class name="com.qa.ac.test.OurHistory">
+        <methods>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurHistory -->
+      <class name="com.qa.ac.test.OpportunitiesCarrer">
+        <methods>
+          <include name="careers"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OpportunitiesCarrer -->
+      <class name="com.qa.ac.test.OurBusiness">
+        <methods>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.OurBusiness -->
+      <class name="com.qa.ac.test.ProductList">
+        <methods>
+          <include name="Ourproducts"/>
+        </methods>
+      </class> <!-- com.qa.ac.test.ProductList -->
+    </classes>
+  </test> <!-- FireFoxTest(failed) -->
+</suite> <!-- Failed suite [CrossBrowser] -->
