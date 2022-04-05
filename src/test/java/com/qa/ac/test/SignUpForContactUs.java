@@ -35,7 +35,8 @@ public class SignUpForContactUs extends BaseClass {
 		textFirstName.clear();
 		textFirstName.sendKeys(firstName);
 		Thread.sleep(1500);
-		WebElement textlastName = nrp.getMlastName();
+		//WebElement textlastName = nrp.getMlastName(); commented by AT 4/5/22
+		WebElement textlastName = nrp.getLastName();
 		textlastName.clear();
 		textlastName.sendKeys(lastName);
 		Thread.sleep(1500);
@@ -48,15 +49,16 @@ public class SignUpForContactUs extends BaseClass {
 		textphones.sendKeys(phoneNumber);
 		Thread.sleep(1500);
 		ContactUsPom cup = new ContactUsPom(driver);
-		Thread.sleep(8000);
-		By type = By.id("type_of_enquiry");
+		//Thread.sleep(8000);
+		Thread.sleep(1500);
+		/*By type = By.id("type_of_enquiry"); //commented by AT 5/4/22
 		Select select1 = new Select(driver.findElement(type));
 		select1.selectByIndex(1);
 		Thread.sleep(8000);
 		By country = By.id("country");
 		Select select = new Select(driver.findElement(country));
 		select.selectByIndex(5);
-		Thread.sleep(1500);
+		Thread.sleep(1500);*/
 		WebElement writeRequest = cup.getWriteRequest();
 		writeRequest.sendKeys(
 				"Hi Attindas, I Pranav Prakash , I am Automating this page for testing your website  and Can you verify the web Element is working fine or not ");

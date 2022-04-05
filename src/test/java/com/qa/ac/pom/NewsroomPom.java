@@ -57,7 +57,8 @@ public class NewsroomPom {
 	private WebElement firstName;
 	@FindBy(xpath = "//input[@id='lastname']")
 	private WebElement lastName;
-	@FindBy(xpath = "//input[@id='phone_number']")
+	//@FindBy(xpath = "//input[@id='phone_number']") commented by AT 5/4/22
+	@FindBy(xpath = "//input[@id='telephone']")
 	private WebElement phoneNumber;
 	@FindBy(xpath = "//input[@id='email']")
 	private WebElement email;

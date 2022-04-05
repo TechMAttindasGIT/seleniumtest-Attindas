@@ -1,46 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite  name="Suite">
-<listeners>
-<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
-<listener class-name="com.qa.ac.generic.listener"/>
-</listeners>
-  <test name="ChromeTest">
-  <parameter name="Browser" value="Chrome"></parameter>
-    <classes>
-     <class name="com.qa.ac.test.VerifyHomepage"/>
-     <!--<class name="com.qa.ac.test.OurProducts"/>
-    <class name="com.qa.ac.test.OurPresence"/>
-      <class name="com.qa.ac.test.Sustainability"/>
-      <class name="com.qa.ac.test.SignUpForContactUs"/>
-      <class name="com.qa.ac.test.OurLeaders"/>
-      <class name="com.qa.ac.test.OurPortfolioCompanies"/>
-     <class name="com.qa.ac.test.OurBrandBabyCare"/>
-      <class name="com.qa.ac.test.Careers"/>
-      <class name="com.qa.ac.test.OurBusiness"/>
-      <class name="com.qa.ac.test.ProductBabyCare"/>
-      <class name="com.qa.ac.test.OurHistory"/>
-      <class name="com.qa.ac.test.ContactUs"/>
-      <class name="com.qa.ac.test.OurBrandOthers"/>
-      <class name="com.qa.ac.test.OurBrandDisplay"/>
-      <class name="com.qa.ac.test.PressRealse"/>
-      <class name="com.qa.ac.test.ProductOthers"/>
-      <class name="com.qa.ac.test.ProductList"/>
-      <class name="com.qa.ac.test.LatestNews"/>
-      <class name="com.qa.ac.test.ProductClinical"/>
-      <class name="com.qa.ac.test.OurBrandCategoryAll"/>
-      <class name="com.qa.ac.test.OurBrandClinical"/>
-      <class name="com.qa.ac.test.SignUpForNews"/>
-      <class name="com.qa.ac.test.ProductAdultIncontinence"/>
-      <class name="com.qa.ac.test.Newsroom"/>
-      <class name="com.qa.ac.test.OurBrandAdultIncontinence"/>
-      <class name="com.qa.ac.test.OpportunitiesCarrer"/>
-      <class name="com.qa.ac.test.SignUpForMediaContact"/>
-      <class name="com.qa.ac.test.MediaContact"/>
-      <class name="com.qa.ac.test.OurBrand"/>
-      <class name="com.qa.ac.test.newsSignUp"/>
-      <class name="com.qa.ac.test.MakingItPersonal"/>-->
-      
-    </classes>
-  </test> 
-</suite> 
+<suite name="Suite">
+    <listeners>
+        <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+        <listener class-name="com.qa.ac.generic.listener"/>
+    </listeners>
+    <test name="ChromeTest">
+        <parameter name="Browser" value="Chrome"></parameter>
+        <classes>
+            <class name="com.qa.ac.test.VerifyHomepage"/>
+            <class name="com.qa.ac.test.Careers"/>
+            <class name="com.qa.ac.test.OurProducts"/>
+            <class name="com.qa.ac.test.ContactUs"/>
+            <class name="com.qa.ac.test.SignUpForContactUs"/>
+
+            <!--Below web page or menu not available-->
+            <!--<class name="com.qa.ac.test.OurBrandBabyCare"/>
+            <class name="com.qa.ac.test.OurBusiness"/>
+            <class name="com.qa.ac.test.OurPortfolioCompanies"/>
+            <class name="com.qa.ac.test.OurLeaders"/>
+            <class name="com.qa.ac.test.OurBrandOthers"/>
+            <class name="com.qa.ac.test.OurHistory"/>
+            <class name="com.qa.ac.test.OurBrandDisplay"/>
+            <class name="com.qa.ac.test.OurPresence"/>
+            <class name="com.qa.ac.test.LatestNews"/>
+            <class name="com.qa.ac.test.PressRealse"/>
+             <class name="com.qa.ac.test.SignUpForNews"/>
+             <class name="com.qa.ac.test.Newsroom"/>
+             <class name="com.qa.ac.test.OpportunitiesCarrer"/>
+             <class name="com.qa.ac.test.SignUpForMediaContact"/>
+              <class name="com.qa.ac.test.MediaContact"/>
+            <class name="com.qa.ac.test.Sustainability"/>-->
+            <!--<class name="com.qa.ac.test.ProductBabyCare"/> product not available in list menu-->
+            <!--<class name="com.qa.ac.test.ProductOthers"/> product not available in list menu-->
+            <!--<class name="com.qa.ac.test.ProductList"/> product not available in list menu-->
+            <!--<class name="com.qa.ac.test.ProductClinical"/> product not available in list menu-->
+            <!--<class name="com.qa.ac.test.ProductAdultIncontinence"/> product not available in list menu-->
+            <!--<class name="com.qa.ac.test.OurBrandCategoryAll"/> brand not available in list menu-->
+            <!--<class name="com.qa.ac.test.OurBrandClinical"/> brand not available in list menu-->
+            <!--<class name="com.qa.ac.test.OurBrandAdultIncontinence"/> brand not available in list menu-->
+            <!--<class name="com.qa.ac.test.OurBrand"/>-->
+            <!--<class name="com.qa.ac.test.newsSignUp"/> -->
+            <!--<class name="com.qa.ac.test.MakingItPersonal"/>-->
+
+
+        </classes>
+    </test>
+</suite>

@@ -38,7 +38,8 @@ public class OurProducts extends BaseClass {
 		Thread.sleep(2000);
 		boolean img = ProductPom.getImage().isDisplayed();
 		System.out.println("if Image is present on product page it returns True/ False -> " + img);
-		boolean text = driver
+		//commented by AT 4/5
+		/*boolean text = driver
 				.findElement(By.xpath("//p[contains(text(),'From the research laboratory to the retail shelf,')]"))
 				.isDisplayed();
 		if (text == true) {
@@ -49,14 +50,14 @@ public class OurProducts extends BaseClass {
 					+ " and text are :- " + text1);
 		} else {
 			System.out.println("Text is not present in our products page");
-		}
+		}*/
 
-		ExpTitle e = new ExpTitle();
+		/*ExpTitle e = new ExpTitle(); //commented by AT 4/5
 		String expectedTitle = e.getExpTitle("pptitle");
 		driver.navigate().refresh();
 		String actualTitle = h.actualTitle(driver);
 		Reporter.log(actualTitle, true);
 		Assert.assertEquals(actualTitle, expectedTitle);
-		System.out.println("Title of our Brand page is match actualTitle is equal to expectedTitle ");
+		System.out.println("Title of our Brand page is match actualTitle is equal to expectedTitle ");*/
 	}
 }

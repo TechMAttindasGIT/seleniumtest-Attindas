@@ -21,7 +21,8 @@ public class Homepage extends BaseClass {
 	public WebElement contactus;
 	@FindBy(xpath = "//ul[@class='ms-auto list-group list-group-horizontal']//a[contains(text(),'Newsroom')]")
 	public WebElement newsroom;
-	@FindBy(xpath = "//h3[@class='footerNavHeading']//a[contains(text(),'Contact Us')]")
+	//@FindBy(xpath = "//h3[@class='footerNavHeading']//a[contains(text(),'Contact Us')]") commented by AT 4/5/22
+	@FindBy(xpath = "//a[@class='dropdown-item font-weight-bold' and text()='Contact Us']")
 	public WebElement contactUs;
 	@FindBy(xpath = "(//a[@class='nav-link'][normalize-space()='Sustainability'])[1]")
 	public WebElement Sustainability;
@@ -70,6 +71,7 @@ public class Homepage extends BaseClass {
 		driver.getCurrentUrl();
 		driver.navigate().refresh();
 		String title = driver.getTitle();
+		System.out.println("titleeee-"+title);
 		return title;
 	}
 

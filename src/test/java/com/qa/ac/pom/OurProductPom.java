@@ -11,10 +11,12 @@ public class OurProductPom {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(xpath = "//h2[contains(text(),'Products')]")
+	//@FindBy(xpath = "//h2[contains(text(),'Products')]") commented by Ashish Tikarye
+	@FindBy(xpath = "(//a[contains(text(),'Products')])[1]")
 	private WebElement product;
 
-	@FindBy(xpath = "//*[@id='headerLink-ourProducts']/div/div/div/div[2]/div/img")
+	//@FindBy(xpath = "//*[@id='headerLink-ourProducts']/div/div/div/div[2]/div/img")
+	@FindBy(xpath = "//img[@alt='products']")
 	private WebElement image;
 
 	@FindBy(linkText = "Adult Incontinence")
